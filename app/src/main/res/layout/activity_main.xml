@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE8AA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="Dog_Shoppee"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#656565"
+        android:scaleType="centerCrop"
+        android:layout_above="@id/address"
+        android:src="@drawable/dogs" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text=" hx-06, ram tower, Us Building, Harrry Pura, Kalwar Road, Near R Mart, Jhotwara, Jaipur, Rajasthan
+ 0345668 83493
+ Open · Closes 10:30 PM
+ Hours or services may vary
+ Order online"
+        android:layout_above="@id/button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/audiowide"
+        android:text="Book Now"
+        android:textSize="24sp"
+        android:background="#DEB887"/>
+</RelativeLayout>
